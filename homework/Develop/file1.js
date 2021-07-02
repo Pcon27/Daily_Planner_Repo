@@ -109,7 +109,7 @@ function showInput3() {
 
 saveBtn3.on('click', function(){
     var Input3=eventInput3.val();
-    localStorage.setItem('givenInpu3t', Input3)});
+    localStorage.setItem('givenInpu3', Input3)});
 
 function getInput3() {
     var userTask3 = localStorage.getItem('givenInput3'); 
